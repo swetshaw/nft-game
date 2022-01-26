@@ -132,7 +132,7 @@ const App = () => {
           <p className='sub-text'>Team up to protect the Metaverse!</p>
           {renderContent()}
         </div>
-        <div className='footer-container'>
+        {/* <div className='footer-container'>
           <img alt='Twitter Logo' className='twitter-logo' src={twitterLogo} />
           <a
             className='footer-text'
@@ -140,7 +140,7 @@ const App = () => {
             target='_blank'
             rel='noreferrer'
           >{`built with @${TWITTER_HANDLE}`}</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
